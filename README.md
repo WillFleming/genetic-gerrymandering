@@ -18,7 +18,7 @@ This code simulates the practice of partisan gerrymandering using a genetic algo
 3. Run the script, specifying your file and number of target districts: `python geo.py shp/pa_final.shp -n 18`
 4. Can also specify optional parameters:
     - `-p` population size (default = 50)
-    - `-l` lambda, the number of children to produce at each generation (default = 1/3 population)
+    - `-l` lambda, the number of children to produce at each generation (default = 1/5 population)
     - `-g` number of generations (default = 100)
     - `--cxpb` probability that an offspring is produced by crossover (default = 0.8)
     - `--mutpb` probability that an offspring is produced by mutation (default = 0.2)
@@ -29,7 +29,7 @@ An example of a random balanced partition, an individual from the initial popula
 
 ![PA random partition](output_g0.png?raw=true "PA random partition")
 
-A partition from the 5th generation
+A partition from the 10th generation
 
 ![PA generation 10](output_g10.png?raw=true "PA generation 10")
 
